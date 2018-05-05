@@ -1,25 +1,33 @@
 <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="keywords" content="Python,JavaScript,HTML,MySQL">
 <meta name="theme-color" content="{{ theme.android_chrome_color }}">
+<meta name="renderer" content="webkit">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#6f9ddc">
+<!-- 关闭移动端手机号码识别(iOS) -->
+<meta name="format-detection" content="telephone=no">
+<!-- 关闭移动端邮箱识别(Android) -->
+<meta name="format-detection" content="email=no">
+<!-- 禁止百度转码 -->
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name=”HandheldFriendly” content=”true”> 
+<meta name=”MobileOptimized” content=”320″>  
+<meta name=”screen-orientation” content=”portrait”>   
+<meta name=”x5-orientation” content=”portrait”>   
+<meta name=”full-screen” content=”yes”>              
+<meta name=”x5-fullscreen” content=”true”>       
+<meta name=”browsermode” content=”application”> 
+<meta name=”x5-page-mode” content=”app”> 
+<meta name=”msapplication-tap-highlight” content=”no”>   
+<meta name="mobile-agent"content="format=[wml|xhtml|html5]; url=url">
+<!--
+[wml|xhtml|html5]根据手机页的协议语言，选择其中一种；
+url="url" 后者代表当前PC页所对应的手机页URL，两者必须是一一对应关系。
+--> 
+<meta http-equiv="window-target" content="_top">
 
-
-
-<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
-<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
-<style>
-    .pace .pace-progress {
-        background: #000000; /*进度条颜色*/
-        height: 3px;
-    }
-    .pace .pace-progress-inner {
-         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
-    }
-    .pace .pace-activity {
-        border-top-color: #1E92FB;    /*上边框颜色*/
-        border-left-color: #1E92FB;    /*左边框颜色*/
-    }
-</style>
 {% if theme.pace %}
   {% set pace_css_uri = url_for(theme.vendors._internal + '/pace/'+ theme.pace_theme +'.min.css?v=1.0.2') %}
   {% set pace_js_uri = url_for(theme.vendors._internal + '/pace/pace.min.js?v=1.0.2') %}

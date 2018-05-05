@@ -163,11 +163,11 @@ jsonContent:
 
       
 
-#search:
- # path: search.xml
- # field: post
-  #format: html
-  #limit: 10000
+search:
+  path: search.xml
+  field: page
+  format: html
+  limit: 10000
 Plugins:
 - hexo-generator-baidu-sitemap
 - hexo-generator-sitemap
@@ -178,6 +178,8 @@ baidusitemap:
   path: baidusitemap.xml
 
 feed:
+  plugin:
+  - hexo-generator-feed
   type: atom
   path: atom.xml
   limit: 20
