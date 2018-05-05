@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*//public
+/node_modules
+/.deploy_git
+/.vscode
+/instantclick
+/theme
+/themes/pure
+/public
+/node_modules
+/.deploy_git
+/.vscode
