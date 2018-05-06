@@ -106,8 +106,6 @@
                   #}</a>
                   </span>
                 {% endfor %}
-         {% include '../_custom/sidebar.swig' %}
-                
             </div>
           {% endif %}
 
@@ -134,6 +132,7 @@
                   </li>
                 {% endfor %}
               </ul>
+          {% include '../_custom/sidebar.swig' %}                
             </div>
           {% endif %}
 
@@ -170,9 +169,12 @@
             <span id="scrollpercent"><span>0</span>%</span>
           {% endif %}
         </div>
+{% include '../_custom/sidebar.swig' %}                
+        
       {% endif %}
 
     </div>
   </aside>
 {% endmacro %}
+
 

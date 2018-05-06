@@ -6,14 +6,15 @@
 }
 // 页面背景色
 .container {
-    background-color: #ffffff;
+    background-color: #ECEFF2;
 }
 .post {
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 15px;
-    -webkit-box-shadow: 0 0 14px rgba(202, 203, 203, .5);
-    -moz-box-shadow: 0 0 14px rgba(202, 203, 204, .5);
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 14px rgb(202, 203, 203);
+    -moz-box-shadow: 0 0 14px rgb(202, 203, 204);
 }
 // 自定义的侧栏时间样式
 #days {
@@ -118,9 +119,16 @@ hr {
     border: none;
     padding: 0px;
 }
+
+.post-body{
+  background-color: #ffffff;
+  }
 .post-gallery .post-gallery-img img {
     padding: 3px;
 }
+.sidebar{
+  background-color: #FFFFFF;
+  }
 // 侧栏顶部文字
 .sidebar-nav li {
     font-size: 15px;
@@ -128,11 +136,11 @@ hr {
     color: rgb(7, 179, 155);
 }
 .sidebar-nav li:hover {
-    color: rgb(161, 102, 171);
+    color: rgb(80, 115, 184);
 }
 .sidebar-nav .sidebar-nav-active {
     color: rgb(7, 179, 155);
-    border-bottom-color: rgb(161, 102, 171);
+    border-bottom-color: rgb(80, 115, 184);
     border-bottom-width: 1.5px;
 }
 .sidebar-nav .sidebar-nav-active:hover {
@@ -162,7 +170,7 @@ hr {
 }
 .site-state-item {
     padding: 0px 15px;
-    border-left: 1.5px solid rgb(161, 102, 171);
+    border-left: 1.5px solid rgb(80, 115, 184);
 }
 // 侧栏RSS按钮样式
 .feed-link {
@@ -175,7 +183,7 @@ hr {
     border-radius: 15px;
 }
 .feed-link a:hover {
-    background-color: rgb(161, 102, 171);
+    background-color: rgb(80, 115, 184);
 }
 .feed-link a i {
     color: rgb(255, 255, 255);
@@ -374,7 +382,7 @@ code.description {
     border-bottom: none;
 }
 .sidebar a:hover {
-    color: #0c0b0b;
+    color: rgb(7, 179, 155);
 }
 .site-state-item {
     display: inline-block;
@@ -390,10 +398,10 @@ code.description {
 }
 //侧栏按钮样式
 .sidebar-toggle {
-    background: #000000;
+    background: #449ABE;
 }
 .back-to-top {
-    background: #000000;
+    background: #449ABE;
 }
 //文章目录样式
 .post-toc .nav .active>a {
@@ -426,7 +434,7 @@ a {
   border-bottom: 1px solid #666;
 }
 .post-button a:hover {
-    color: #7784ba;
+    color: #449ABE;
 }
 
 // 自定义页脚跳动的心样式
@@ -446,7 +454,7 @@ a {
   list-style: none;
   display: inline-block;
   float: left; 
-  align: center;
+
   list-style-type:none;
   position: relative;
   padding: 0 0 0 2em;
@@ -496,15 +504,28 @@ a {
   -webkit-transform: none;
       -ms-transform: none;
           transform: none;
-  border-radius: 5px;
-  width: 25px;
-  left: -10px;
-  background: #4f7e96;
+  border-radius: 15px;
+  width: 15px;
+  left: 10px;
+  background: #209AC3;
 }
 
 .category-list >ul{
   align-content: center;
   align: center;
   align-self auto;
+  margin: 0 auto;
+  
   align-items: center;
   }
+
+.category-all-page .category-list-item {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding-left: 40px;
+  padding-right: 10px;
+  }
+
+  .posts-expand .post-title{
+    font-weight: 700;
+    }
