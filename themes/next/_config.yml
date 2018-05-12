@@ -421,8 +421,8 @@ gitment:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-baidushare:
-  type: slide
+# baidushare:
+  # type: slide
 
 # Share
 # This plugin is more useful in China, make sure you known how to use it.
