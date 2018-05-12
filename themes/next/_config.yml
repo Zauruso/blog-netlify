@@ -389,7 +389,7 @@ valine:
   pageSize: 10 # pagination size
 
   #Share
-sharesdk: false
+sharesdk: true
 shareSDKappkey: 25be579cf4c00
 
 # Support for youyan comments system.
@@ -433,7 +433,7 @@ gitment:
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+# duoshuo_share: true
 
 # NeedMoreShare2
 # This plugin is a pure javascript sharing lib which is useful in China.

@@ -23,7 +23,7 @@
       {% elseif theme.duoshuo_shortname and theme.duoshuo_share %}
         {% include '_partials/share/duoshuo_share.swig' %}
       {% elseif theme.sharesdk %}
-        {% include '_partials/share/sharesdk.swig' %}
+         {% include '_partials/share/sharesdk.swig' %}
       {% endif %}
     </div>
   </div>
