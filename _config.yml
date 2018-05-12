@@ -144,14 +144,14 @@ neat_js:
 
 jsonContent:
     meta: false
-    pages: false
+    pages: true
     posts:
       title: true
       date: true
       path: true
       text: true
       raw: false
-      content: false
+      content: true
       slug: false
       updated: false
       comments: false
@@ -159,7 +159,7 @@ jsonContent:
       permalink: false
       excerpt: false
       categories: false
-      tags: false
+      tags: true
 
       
 
